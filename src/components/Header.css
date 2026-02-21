@@ -1,0 +1,68 @@
+.top-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #0b2a66;
+  color: white;
+  padding: 10px 40px;
+  font-family: 'Solway',serif;
+}
+
+/* LEFT SIDE */
+.top-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.top-logo {
+  width: 90px;
+}
+
+.college-text h1 {
+  font-size: 25px;
+  margin: 0;
+  font-weight: 700;
+}
+
+.college-text p {
+  margin: 2px 0;
+  font-size: 16px;
+  opacity: 0.9;
+}
+
+/* RIGHT NAV */
+.top-nav a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+
+.top-nav a:hover {
+  background: rgba(182, 177, 177, 0.712);
+  padding: 14px;
+}
+
+/* ACTIVE HOME BOX */
+.top-nav a:hover{
+  border-radius: 20px;
+}
+.iipc-image{
+  background: linear-gradient(to right, #2f4572, #253657);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.iipc-image img{
+  width: 700px;
+  height: 380px;
+  border-radius: 20px;
+}
